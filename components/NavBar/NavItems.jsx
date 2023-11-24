@@ -1,4 +1,4 @@
-import { navOptions } from '@/utils';
+
 import React from 'react';
 
 const NavItems = ({ isModalView, isAdmin, router }) => {
@@ -19,7 +19,7 @@ const NavItems = ({ isModalView, isAdmin, router }) => {
               isModalView ? "border-none" : "border border-gray-100 "
             }`}
           >
-            {isAdmin
+            {/* {isAdmin
               ? ""
               : navOptions.map((item) => (
                   <div
@@ -30,7 +30,7 @@ const NavItems = ({ isModalView, isAdmin, router }) => {
                   >
                     {item.label}
                   </div>
-                ))}
+                ))} */}
           </div>
         </div>
       );
